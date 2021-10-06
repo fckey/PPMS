@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.ZhidaoxiangmuMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Zhidaoxiangmu">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="zhuanjiaid" property="zhuanjiaid" jdbcType="INTEGER"/>
+                                    <result column="zhuanjiabianhao" property="zhuanjiabianhao" jdbcType="VARCHAR"/>
+                                    <result column="zhuanjiaxingming" property="zhuanjiaxingming" jdbcType="VARCHAR"/>
+                                    <result column="zhidaoxiangmu" property="zhidaoxiangmu" jdbcType="VARCHAR"/>
+                                    <result column="beizhu" property="beizhu" jdbcType="VARCHAR"/>
+                                    <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+                                
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, zhuanjiaid, zhuanjiabianhao, zhuanjiaxingming, zhidaoxiangmu, beizhu, addtime    </sql>
+    </mapper>

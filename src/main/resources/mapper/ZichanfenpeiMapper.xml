@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.ZichanfenpeiMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Zichanfenpei">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="yuanquzichanid" property="yuanquzichanid" jdbcType="INTEGER"/>
+                                    <result column="fenpeibianhao" property="fenpeibianhao" jdbcType="VARCHAR"/>
+                                    <result column="zichanbianhao" property="zichanbianhao" jdbcType="VARCHAR"/>
+                                    <result column="zichanmingcheng" property="zichanmingcheng" jdbcType="VARCHAR"/>
+                                    <result column="zichanleixing" property="zichanleixing" jdbcType="VARCHAR"/>
+                                    <result column="fenpeidaoxiangmu" property="fenpeidaoxiangmu" jdbcType="VARCHAR"/>
+                                    <result column="peifenshuliang" property="peifenshuliang" jdbcType="INTEGER"/>
+                                    <result column="fenpeibeizhu" property="fenpeibeizhu" jdbcType="VARCHAR"/>
+                                    <result column="caozuoren" property="caozuoren" jdbcType="VARCHAR"/>
+                                    <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+                                
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, yuanquzichanid, fenpeibianhao, zichanbianhao, zichanmingcheng, zichanleixing, fenpeidaoxiangmu, peifenshuliang, fenpeibeizhu, caozuoren, addtime    </sql>
+    </mapper>
