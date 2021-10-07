@@ -2,7 +2,10 @@
 Simple business park management system
 # Development environment 
  IDEA 2019.1
+ 
  Navicat 15
+ 
+ MySQL 5.7
  
  ----------
  
